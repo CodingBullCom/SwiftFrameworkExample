@@ -1,0 +1,10 @@
+framework module CBMath {
+  umbrella header "CBMath.h"
+
+  export *
+  module * { export * }
+}
+
+module CBMath.Swift {
+    header "CBMath-Swift.h"
+}
